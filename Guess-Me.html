@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>try.html</title>
-</head>
-<body>
-	<h2>Guess The Number If You Can</h2>
-	<p>Enter the Number Between 1 to 10</p>
-	
-	<input type="text" placeholder="Enter your guess" id="Gss">
-	<button id="btn">Guess</button>
-	
-	<script type="text/javascript">
-		
-			document.getElementById('btn').onclick = function function_name(argument) {
-				var magic = document.getElementById('Gss').value;
-				var word   = Math.floor((Math.random() * 10) + 1);
-					if(magic == word ){
-						alert("You got it")
-					}else{
-						alert("Nope!! the number was "  +  word)
+	<head>
+		<title>Guess ME</title>
+	</head>
+
+	<body>
+		<center>
+			<h2>Guess The Number If You Can, World Most HARD GAME ;-) </h2>
+			<p>Enter the Number Between 1 to 10</p>
+			
+			<input type="text" placeholder="Enter your guess" id="Gss">
+			<button id="btn">Guess</button>
+			
+			<script type="text/javascript">
+				
+					document.getElementById('btn').onclick = function function_name(argument) {
+						var magic = document.getElementById('Gss').value;
+						var word   = Math.floor((Math.random() * 10) + 1);
+							if(magic == word ){
+								alert("You got it")
+							}else{
+								alert("Nope!! the number was "  +  word)
+							}
 					}
+					
+			</script>
+		</center>		
+	</body>
 
-			}
-
-	</script>
-		
-
-</body>
 </html>
